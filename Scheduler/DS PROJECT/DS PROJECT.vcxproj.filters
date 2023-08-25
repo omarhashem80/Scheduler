@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\ADTS">
+      <UniqueIdentifier>{c323f791-ed7f-499a-a8a3-12fdc6bc71b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Processors">
+      <UniqueIdentifier>{6f51fd22-e9cf-44c4-9672-37bbc2cfafb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Managers">
+      <UniqueIdentifier>{f3f73e6b-cd3c-4bf4-8c09-f1b91b707630}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\test cases">
+      <UniqueIdentifier>{906c8252-1257-48b0-83b9-1533aed13c94}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DS PROJECT.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Processor.cpp">
+      <Filter>Header Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="Process.cpp">
+      <Filter>Header Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="RRProcessor.cpp">
+      <Filter>Header Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="SJFProcessor.cpp">
+      <Filter>Header Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="FCFSProcessor.cpp">
+      <Filter>Header Files\Processors</Filter>
+    </ClCompile>
+    <ClCompile Include="Scheduler.cpp">
+      <Filter>Header Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Header Files\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EDFProcessor.cpp">
+      <Filter>Header Files\Processors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files\ADTS</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedList.h">
+      <Filter>Header Files\ADTS</Filter>
+    </ClInclude>
+    <ClInclude Include="QueueADT.h">
+      <Filter>Header Files\ADTS</Filter>
+    </ClInclude>
+    <ClInclude Include="LinkedQueue.h">
+      <Filter>Header Files\ADTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Pair.h">
+      <Filter>Header Files\ADTS</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.h">
+      <Filter>Header Files\ADTS</Filter>
+    </ClInclude>
+    <ClInclude Include="Processor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="Process.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="FCFSProcessor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="RRProcessor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="SJFProcessor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+    <ClInclude Include="Scheduler.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessList.h">
+      <Filter>Header Files\ADTS</Filter>
+    </ClInclude>
+    <ClInclude Include="EDFProcessor.h">
+      <Filter>Header Files\Processors</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="input file.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="OutPut_File1.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="OutPut_File2.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="OutPut_File3.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="OutPut_File4.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="OutPut_File5.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="OutPut_File6.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="test1.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="test2.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="test3.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="test4.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="test5.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="test6.txt">
+      <Filter>Source Files\test cases</Filter>
+    </Text>
+    <Text Include="OutPut_File.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
